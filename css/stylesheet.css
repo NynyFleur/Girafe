@@ -1,0 +1,88 @@
+.bg-image img { 
+	margin-left: 20%; 
+	margin-top:-65%;}
+
+.premier { 
+	width: 900px; 
+	height: 350px; 
+	border: 2px solid black; 
+	font-size: 20px; 
+	text-align: center;
+  color: #f64d00;
+	 }
+
+.Monpremierpara { 
+	text-align: center; 
+	margin-bottom: 50px;   }
+
+.position {  
+text-align: center; 
+}
+
+span.small {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 2s;
+  animation-direction: alternate;
+  margin-top:5px;
+
+}
+.slidein {
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+    
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+      
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+
+@keyframes slidein {
+  from {
+    width:300%
+  }
+  
+  to {
+   margin-left:0%;
+   width:100%;
+ }
+}
+h2.head-bord-1 { 
+
+margin-top: 30px; 
+font-family: Crimson Text; 
+
+}
+h1.head-bord-1 { 
+	font-family: Bree Serif;  
+}
+p.titre { 
+	margin-right:250px; }
